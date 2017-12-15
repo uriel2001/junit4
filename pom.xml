@@ -197,12 +197,14 @@
                 <artifactId>replacer</artifactId>
                 <version>1.5.3</version>
                 <executions>
+                <!-- 
                     <execution>
                         <phase>process-sources</phase>
                         <goals>
                             <goal>replace</goal>
                         </goals>
                     </execution>
+                 -->
                 </executions>
                 <configuration>
                     <ignoreMissingFile>false</ignoreMissingFile>
